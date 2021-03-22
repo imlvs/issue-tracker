@@ -1,0 +1,14 @@
+{
+  "name": "issue-tracker",
+  "version": "1.0.0",
+  "description": "Issue Tracker created using VanillaJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "imlvs",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.1.7"
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link href="./styles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Issue Tracker</h1>
+            <h2>by imlvs</h2>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="add_issue">
+                <h2>Submit an issue:</h2>
+                <form>
+                    <div class="input_box">
+                        <label>Description</label>
+                        <input type="text" placeholder="Description of the issue..." id="desc">
+                    </div>
+                    <div class="input_box">
+                        <label>Severity</label>
+                        <select name="" id="severity">
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+                        </select>
+                    </div>
+                    <div class="input_box">
+                        <label>Assigned to</label>
+                        <input type="text" placeholder="Responsibility assigned to..." id="assigned">
+                    </div>
+                    <button id="add_new_issue">Submit</button>
+                </form>
+            </section>
+            <section class="issue_list">
+                <h2>Current list of issues:</h2>
+                <ul id="issuesList">
+                </ul>
+            </section>
+        </div>
+    </main>
+    <script src="./dist/bundle.js"></script>
+</body>
+
+</html>
